@@ -67,14 +67,42 @@ body {
       line-height: 20px;
       padding: 10px 30px 20px 30px;
   }
+
+  .space-portfolio {
+      width:960px;
+  }
   
-  .aboutme-first-h2 {
+  .portfolio-first-h2 {
       font-family: 'Georgia', Times, Times New Roman, serif;  
       color:#4aaaa5;
   }
 
   .description {
       margin-left: 10px;
+  }
+
+  .container {
+      position: relative;
+      width: 220px;
+      height: 220px;
+      
+  }
+
+  .title {
+      position: absolute;
+      align-content: center;
+      color:#ffffff;
+      width: 180px;
+      background-color:#4aaaa5;
+      font-family: 'Georgia', Times, Times New Roman, serif;
+      bottom: 43px;
+      font-size: 20px;
+      margin-left: 20px;
+      padding: 10px 10px 10px 10px;
+  }
+
+  img {
+    z-index: -1;
   }
 
   ul.portfolio-list {
@@ -85,10 +113,10 @@ body {
   }
   ul.portfolio-list li {
     display: inline;
+    z-index: -1;
     margin: 80px 100px 10px 10px;
     padding: 63px 80px 10px 80px;
   }
-
 
   .footer {
     position: fixed;
